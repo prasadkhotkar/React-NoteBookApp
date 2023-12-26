@@ -5,7 +5,11 @@ body {
 		'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-image:url(./components/img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas,
@@ -16,15 +20,10 @@ code {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	font-size:medium;
 }
 
-.dark-mode {
-	background-color: black;
-}
 
-.dark-mode h1 {
-	color: white;
-}
 
 .container {
 	max-width: 960px;

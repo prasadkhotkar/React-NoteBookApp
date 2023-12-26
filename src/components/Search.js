@@ -9,7 +9,7 @@ const Search = ({ handleSearchNote }) => {
 				onChange={(event) =>
 					handleSearchNote(event.target.value)
 				}
-				type='text'
+				type='date'
 				placeholder='type to search...'
 			/>
 		</div>
